@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card">
+        <h1>BMI Calculator</h1>
+      
+        <div class="container">
+            
+            <form id="form">
+                <div id="age-selector">
+                <label for="age" id="age-lable">Age:   
+                <input type="number" id="age" placeholder="ages" min="2" max="102" >
+            </label></div>
+                
+                <div id="gender-selector">
+                <div id="male-part">
+                    <label for="male">Male
+                <input type="radio" name='gender' value="Male" id="male" >
+            </label></div>
+            <div id="female-part">
+                <label for="Female">Female
+                <input type="radio" name='gender' value="Female" id="Female" >
+            </label></div>
+            </div>
+
+            <div id="height-all-in-one">
+
+            <div class="height-section">
+                <label for="height-in-feet-lable">Height: </label>
+            </div>
+                <input type="number" id="height-in-feet" min="0" max="8" placeholder="Feet">
+                <div class="height-section">
+                <label for="height-in-inches-lable">Height:</label>
+            </div>
+                <input type="number" id="height-in-inches" min="0" max="11" placeholder="Inches">
+            </div>
+            <div id="weight-section">
+                <label for="Weight" id="weight">Weight</label>
+                <input type="number" id="weight-in-pounds" placeholder="Lbs" min="0" max="1000">
+            <br>
+        </div>
+            <div class="calculate-info">
+                <input type="button" value="calculate" id="finished-button" onclick="bmiCalculator()">
+                
+         <br>
+        </div>
+
+        <div class="calculate-info" id="end-result">
+            
+                <div id="end"></div>
+            
+            </div>
+
+            </div>
+        </div>
+
+            </form>
+     
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

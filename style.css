@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 10px;
+}
+body{
+    background-color: brown;
+}
+
+#age-selector *{
+       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 10px;
+    margin: 5px;
+    
+}
+#gender-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    font-size: 20px;
+    
+}
+#gender-selector input[name='gender']{
+    
+    margin: 5px;
+}
+#male-part{
+    margin: 5px 5px;
+}
+#female-part{
+    margin: 5px 5px;
+}
+#height-all-in-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.height-section{
+    margin: 0px 5px;
+}
+
+#weight-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.calculate-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+ .container {
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(60, 190, 159);
+    
+    color: aliceblue;
+
+    
+}
+.container input{
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: black;
+    color: aliceblue;
+    font-size: large;
+    
+} 
+#end{
+    background-color: black;
+    border: 2px solid black;
+}
